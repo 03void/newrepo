@@ -60,20 +60,3 @@ $.ajax
 })
 
 }
-function editdata(idd)
-{
-    $.ajax({
-        type :"GET",
-        url:'/demoserver11/editdata',
-        data:{id:idd},
-        success : function(result)
-        {
-            console.log(result);
-            $("#id2").val(result[0].l_id);
-            $("#name").val(result[0].l_name);
-            $("#lastname").val(result[0].l_lastname);
-            $("#city").val(result[0].l_city);
-            $("#pincode").val(result[0].l_pincode);
-        }
-    })
-}
