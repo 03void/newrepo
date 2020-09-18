@@ -60,3 +60,8 @@ $.ajax
 })
 
 }
+
+function call_ganesh()
+{
+alert("hiiii  ganesh");
+}
