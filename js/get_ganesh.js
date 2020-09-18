@@ -25,7 +25,7 @@ $.ajax
 })
     
 }
-function getallData1()
+function getSushant()
 {
 alert("get data");
 $.ajax
